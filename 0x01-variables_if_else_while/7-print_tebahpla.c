@@ -3,7 +3,7 @@
  * main - program that print the lowercase
  * alphabet in reverse followed by a new line
  * you can only used the putchar function
- * Returen: 0;
+ * Return: always 0;
  */
 int main(void)
 {
