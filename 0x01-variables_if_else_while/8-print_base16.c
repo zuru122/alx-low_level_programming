@@ -1,10 +1,7 @@
 #include <stdio.h>
 /**
- * Write a program that prints all the
- * numbers of base 16 in lowercase,
- * followed by a new line.
- * u can only use the putchar function
- * Return: 0
+ * main - Write a program that prints all the
+ * Return:  always return 0
  */
 
 int main(void)
