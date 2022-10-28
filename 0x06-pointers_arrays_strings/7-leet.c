@@ -13,7 +13,7 @@ char *leet(char *s)
 
 	while (*(s + i) != '\0')
 	{
-		while (*(i + j) != '\0')
+		while (*(l + j) != '\0')
 		{
 			if (*(s + i) == *(l + j))
 				*(s + i) = *(n + j);
