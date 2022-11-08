@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-			res = (num * num2);
+			res = (num1 * num2);
 			count++;
 		}
 		printf("%d\n", res);
