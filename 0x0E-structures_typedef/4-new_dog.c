@@ -36,7 +36,7 @@ char *_strdup(char *str)
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-gog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_dog;
 
