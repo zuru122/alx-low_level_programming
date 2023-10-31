@@ -15,11 +15,12 @@
 
 int clear_bit(unsigned long int *n, unsigned int index)
 {
+	unsigned long int mask = 1 << index;
+
 	if (index >= (sizeof(unsigned long int) * 8))
 	{
 		return (-1); /*Error: index out of range*/
 	}
-	unsigned long int mask = 1UL << index;
-	*n = *n & ~mask; /* used bitwise AND with the mask complement */
+	*n = (*n & ~mask); /* used bitwise AND with the mask complement */
 	return (1);
 }
